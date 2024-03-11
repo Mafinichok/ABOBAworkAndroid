@@ -21,18 +21,12 @@ public class MainActivity extends AppCompatActivity {
         knopka = findViewById(R.id.knopka);
         knopka.setOnClickListener(this::OnClick);
 
-        tonext = findViewById(R.id.tonext);
-        tonext.setOnClickListener(this::OnClick);
 
     }
     public void OnClick(View v) {
-        if (v.getId() == R.id.knopka){
 
-            knopka.setBackgroundTintList(getColorStateList(R.color.GREEN));
-        }
-        else{
-            Intent aboba = new Intent(MainActivity.this, MainActivity2.class);
-            startActivity(aboba);
-        }
+        knopka.setBackgroundTintList(getColorStateList(R.color.GREEN));
+
+
     }
 }

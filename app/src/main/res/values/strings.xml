@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">ABOBA</string>
+    <string name="app_name" translatable="false">ABOBA</string>
+    <string name="click_here">Click here</string>
+
 </resources>

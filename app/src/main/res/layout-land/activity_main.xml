@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9C27B0"
-    android:backgroundTint="#9C27B0">
+    tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="216dp"
-        android:layout_height="134dp"
-        android:layout_marginTop="195dp"
-        android:layout_marginEnd="70dp"
-        android:text="Two Activity"
-        android:textColor="@color/white"
-        android:textSize="30dp"
+    <Button
+        android:id="@+id/knopka"
+        android:layout_width="320dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#FF0000"
+        android:text="@string/click_here"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
